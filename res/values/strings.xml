@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Java Test</string>
+    <string name="maButton">Почати</string>
+    <string name="maText">Пройди тест...</string>
+    <string name="quesAmount">Вибери кількість запитань:</string>
+    <string name="naText">Запитання:</string>
+    <string name="naBut3">Підтвердити</string>
+</resources>

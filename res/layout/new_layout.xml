@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:id="@+id/new_layout">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/naText"
+            android:id="@+id/textView2"
+            android:layout_marginTop="54dp"
+            android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/naBut3"
+            android:id="@+id/yes"
+            android:layout_marginBottom="80dp"
+            android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:clickable="false"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/quesText" android:layout_below="@+id/textView2" android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp" android:singleLine="false" android:text="question"
+            android:layout_marginLeft="30dp" android:layout_marginRight="30dp"/>
+    <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+                android:layout_marginTop="200dp" android:layout_marginBottom="200dp">
+        <RelativeLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false" android:clickable="false" android:focusable="false"
+                android:focusableInTouchMode="false" android:id="@+id/ansLayout" android:longClickable="false"
+                android:gravity="top|center_vertical|center"
+                android:layout_below="@+id/quesText"
+                android:layout_marginTop="20dp" android:layout_marginBottom="20dp"
+                android:layout_alignParentRight="true" android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp" android:layout_marginRight="30dp">
+        </RelativeLayout>
+    </ScrollView>
+    <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar" android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true" android:layout_alignParentRight="true"
+            android:layout_marginBottom="20dp" android:indeterminate="false"/>
+</RelativeLayout>

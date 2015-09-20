@@ -1,0 +1,302 @@
+Which one of these lists contains only Java programming language keywords?
+- class, if, void, long, Int, continue
++ goto, instanceof, native, finally, default, throws
+- try, virtual, throw, final, volatile, transient
+- strictfp, constant, super, implements, do
+- byte, break, assert, switch, include
+
+Which will legally declare, construct, and initialize an array?
+- int [] myList = {"1", "2", "3"};
+- int [] myList = (5, 8, 2);
+- int myList [] [] = {4,9,7,0};
++ int myList [] = {4, 3, 7};
+
+Which is a reserved word in the Java programming language?
+- method
++ native
+- subclasses
+- reference
+- array
+
+Which is a valid keyword in java?
++ interface
+- string
+- Float
+- unsigned
+
+Which one of the following will declare an array and initialize it with five numbers?
+- Array a = new Array(5);
++ int [] a = {23,22,21,20,19};
+- int a [] = new int[5];
+- int [5] array;
+
+Which is the valid declarations within an interface definition?
++ public double methoda();
+- public final double methoda();
+- static void methoda(double d1);
+- protected void methoda(double d1);
+
+Which one is a valid declaration of a boolean?
+- boolean b1 = 0;
+- boolean b2 = 'false';
++ boolean b3 = false;
+- boolean b4 = Boolean.false();
+- boolean b5 = no;
+
+Which is a valid declarations of a String?
++ String s1 = null;
+- String s2 = 'null';
+- String s3 = (String) 'abc';
+- String s4 = (String) '\ufeed';
+
+What is the numerical range of a char?
+- -128 to 127
+- 0 to 32767
++ 0 to 65535
+
+You want subclasses in any package to have access to members of a superclass. Which is the most restrictive access that accomplishes this objective?
+- public
+- private
++ protected
+- transient
+
+What is the most restrictive access modifier that will allow members of one class to have access to members of another class in the same package?
+- public
+- abstract
+- protected
+- synchronized
++ default access
+
+Which cause a compiler error?
+- int[ ] scores = {3, 5, 7};
++ int [ ][ ] scores = {2,7,6}, {9,3,45};
+- String cats[ ] = {"Fluffy", "Spot", "Zeus"};
+- boolean results[ ] = new boolean [] {true, false, true};
+- Integer results[ ] = {new Integer(3), new Integer(5), new Integer(8)};
+
+You want a class to have access to members of another class in the same package. Which is the most restrictive access that accomplishes this objective?
+- public
+- private
+- protected
++ default access
+
+Which one creates an instance of an array?
++ int[ ] ia = new int[15];
+- float fa = new float[20];
+- char[ ] ca = "Some String";
+- int ia[ ] [ ] = { 4, 5, 6 }, { 1,2,3 };
+
+Which of the following class level (nonlocal) variable declarations will not compile?
+- protected int a;
+- transient int b = 3;
++ private synchronized int e;
+- volatile int d;
+
+Given a method in a protected class, what access modifier do you use to restrict access to that method to only the other members of the same class?
+- final
+- static
++ private
+- protected
+- volatile
+
+Which is a valid declaration within an interface?
++ public static short stop = 23;
+- protected short stop = 23;
+- transient short stop = 23;
+- final void madness(short stop);
+
+Which statement is true?
++ catch(X x) can catch subclasses of X where X is a subclass of Exception.
+- The Error class is a RuntimeException.
+- Any statement that can throw an Error must be enclosed in a try block.
+- Any statement that can throw an Exception must be enclosed in a try block.
+
+Which statement is true?
+- A try statement must have at least one corresponding catch block.
+- Multiple catch statements can catch the same class of exception more than once.
+- An Error that might be thrown in a method must be declared as thrown by that method, or be handled within that method.
++ Except in case of VM shutdown, if a try block starts to execute, a corresponding finally block will always start to execute.
+
+Suppose that you would like to create an instance of a new Map that has an iteration order that is the same as the iteration order of an existing instance of a Map. Which concrete implementation of the Map interface should be used for the new instance?
+- TreeMap
+- HashMap
++ LinkedHashMap
+- The answer depends on the implementation of the existing instance.
+
+Which class does not override the equals() and hashCode() methods, inheriting them directly from class Object?
+- java.lang.String
+- java.lang.Double
++ java.lang.StringBuffer
+- java.lang.Character
+
+Which collection class allows you to grow or shrink its size and provides indexed access to its elements, but whose methods are not synchronized?
+- java.util.HashSet
+- java.util.LinkedHashSet
+- java.util.List
++ java.util.ArrayList
+
+You need to store elements in a collection that guarantees that no duplicates are stored and all elements can be accessed in natural order. Which interface provides that capability?
+- java.util.Map
++ java.util.Set
+- java.util.List
+- java.util.Collection
+
+Which interface does java.util.Hashtable implement?
++ Java.util.Map
+- Java.util.List
+- Java.util.HashTable
+- Java.util.Collection
+
+Which interface provides the capability to store objects using a key-value pair?
++ Java.util.Map
+- Java.util.Set
+- Java.util.List
+- Java.util.Collection
+
+Which collection class allows you to associate its elements with key values, and allows you to retrieve objects in FIFO (first-in, first-out) sequence?
+- java.util.ArrayList
++ java.util.LinkedHashMap
+- java.util.HashMap
+- java.util.TreeMap
+
+Which collection class allows you to access its elements by associating a key with an element's value, and provides synchronization?
+- java.util.SortedMap
+- java.util.TreeMap
+- java.util.TreeSet
++ java.util.Hashtable
+
+Which is valid declaration of a float?
++ float f = 1F;
+- float f = 1.0;
+- float f = "1";
+- float f = 1.0d;
+
+What is the numerical range of char?
+- 0 to 32767
++ 0 to 65535
+- -256 to 255
+- -32768 to 32767
+
+Which statement is true for the class java.util.HashSet?
+- The elements in the collection are ordered.
+- The collection is guaranteed to be immutable.
++ The elements in the collection are guaranteed to be unique.
+- The elements in the collection are accessed using a unique key.
+
+Which statement is true for the class java.util.ArrayList?
++ The elements in the collection are ordered.
+- The collection is guaranteed to be immutable.
+- The elements in the collection are guaranteed to be unique.
+- The elements in the collection are accessed using a unique key.
+
+Which of the following would compile without error?
++ int a = Math.abs(-5);
+- int b = Math.abs(5.0);
+- int c = Math.abs(5.5F);
+- int d = Math.abs(5L);
+
+What is the value of "d" after this line of code has been executed: double d = Math.round ( 2.5 + Math.random() );
+- 2
++ 3
+- 4
+- 2.5
+
+What will be the output of the program: int i = (int) Math.random();
++ i = 0
+- i = 1
+- value of i is undetermined
+- Statement causes a compile error
+
+What will be the output of the program: System.out.println(Math.sqrt(-4D));
+- -2
++ NaN
+- Compile Error
+- Runtime Exception
+
+Which statement is true given the following: Double d = Math.random();
+- 0.0 < d <= 1.0
++ 0.0 <= d < 1.0
+- Compilation fail
+- Cannot say.
+
+Which of the following will produce an answer that is closest in value to a double, d, while not being greater than d?
+- (int)Math.min(d);
+- (int)Math.max(d);
+- (int)Math.abs(d);
++ (int)Math.floor(d);
+
+Which of the following is not a return type?
+- boolean
+- void
++ public
+- Button
+
+All the wrapper classes (Integer, Boolean, Float, Short, Long, Double and Character) in java
++ are final
+- are private
+- are serializable
+- are immutatable
+
+Select the one correct answer. The smallest number that can be represented using short primitive type in Java is -
+- -127
+- -128
+- 0
++ -32768
+
+What is an aggregate object?
+- An object with only primitive attributes
+- An instance of a class which has only static methods
++ An instance which has other objects
+- None of the above
+
+Select the one correct answer. Which method defined in Integer class can be used to convert an Integer object to primitive int type.
+- valueOf
++ intValue
+- getInt
+- getInteger
+
+Which of the following statements about the Java language is true?
++ Both procedural and OOP are supported in Java.
+- Java supports only procedural approach towards programming.
+- Java supports only OOP approach.
+- None of the above.
+
+Which methods can access to private attributes of a class?
+- Only Static methods of the same class
+- Only instances of the same class
++ Only methods those defined in the same class
+- Only classes available in the same package.
+
+Is the following statement true or false. The constructor of a class must not have a return type.
++ true
+- false
+
+A top level class may have only the following access modifier. Select the one correct answer. 
+- package
+- protected
+- private
++ public
+
+What is the number of bytes used by Java primitive long. Select the one correct answer.
+- The number of bytes is compiler dependent.
+- 2
+- 4
++ 8
+
+Given two non-negative integers a and b and a String str, what is the number of characters in the expression str.substring(a,b) . Select the one correct answer.
+- a + b
+- a - b
++ b - a
+- b - a - 1
+
+What is the data type for the number 9.6352?
+- float
++ double
+- Float
+- Double
+
+The initial value of a local variable of type String that is not explicitly initialized and which is defined in a member function of a class. Select the one correct answer. 
+- NULL
+- ""
+- null
++ The local variable must be explicitly assigned.
